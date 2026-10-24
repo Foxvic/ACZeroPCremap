@@ -11,9 +11,7 @@ A portable control remapper for the **Ace Combat Zero PC port**, with an interfa
 - Keyboard and mouse bindings.
 - Mouse movement and wheel capture.
 - Separate flight and menu controls, with search and action groups.
-- Shared-input warnings and a flight mouse toggle.
 - Automatic backups and restore.
-- Adapts to smaller screens and remembers the window size and position.
 - English, Russian, Spanish, Brazilian Portuguese, German and French.
 
 ## Getting started
