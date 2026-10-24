@@ -31,6 +31,8 @@ Launch the game at least once to generate its INI configuration files.
 
 Built with C#, .NET 10 and WPF. See [contributing](CONTRIBUTING.md) for builds and checks, or the [user guide](docs/USER-GUIDE.md) for details.
 
+Created with the assistance of OpenAI Codex.
+
 ## License
 
 [MIT](LICENSE). Unofficial project, not affiliated with the game's publisher.
