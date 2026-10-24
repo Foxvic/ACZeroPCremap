@@ -1,0 +1,11 @@
+.tools/
+**/bin/
+**/obj/
+artifacts/
+release/
+uiref/
+ACZeroPCremap.settings.json
+*.bak
+*.tmp
+.vs/
+

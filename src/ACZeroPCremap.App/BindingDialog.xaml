@@ -1,0 +1,42 @@
+<Window x:Class="ACZeroPCremap.App.BindingDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:loc="clr-namespace:ACZeroPCremap.App.Localization"
+        Style="{StaticResource AppWindowStyle}"
+        Title="{loc:Tr AssignTitle}" Width="720" Height="680" MinWidth="580" MinHeight="600"
+        WindowStartupLocation="CenterOwner" ResizeMode="CanResizeWithGrip">
+    <Grid x:Name="DialogRoot" Margin="26" Background="{StaticResource MenuBackdrop}">
+        <Grid.RowDefinitions><RowDefinition Height="Auto" /><RowDefinition Height="*" /><RowDefinition Height="Auto" /></Grid.RowDefinitions>
+        <StackPanel>
+            <TextBlock Text="{loc:Tr UI.BindingPath}" Style="{StaticResource Eyebrow}" Margin="0,0,0,12" />
+            <TextBlock x:Name="ActionLabel" Foreground="{StaticResource Accent}" FontSize="25" FontWeight="SemiBold" />
+            <TextBlock x:Name="ActionHint" Foreground="{StaticResource Accent}" FontSize="12" TextWrapping="Wrap" Margin="0,8,0,0" />
+            <TextBlock Text="{loc:Tr AssignInstruction}" Foreground="{StaticResource TextSecondary}" TextWrapping="Wrap" Margin="0,8,0,20" />
+        </StackPanel>
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+        <StackPanel Margin="0,0,8,0">
+            <TextBlock Text="{loc:Tr InputLabel}" Foreground="{StaticResource TextSecondary}" Margin="0,0,0,8" />
+            <ComboBox x:Name="Choices" FontSize="15" Padding="10" Foreground="{StaticResource TextPrimary}" MaxDropDownHeight="250" SelectionChanged="OnSelectionChanged" />
+            <TextBlock x:Name="SharedWarning" Foreground="{StaticResource WarningBrush}" FontSize="12" TextWrapping="Wrap" Margin="0,9,0,0" Visibility="Collapsed" />
+            <WrapPanel Margin="0,16,0,8">
+                <Button x:Name="CaptureButton" Content="{loc:Tr Capture}" Click="StartCapture" Margin="0,0,8,4" />
+                <Button x:Name="AxisCaptureButton" Content="{loc:Tr MouseAxis.Capture}" Click="StartAxesCapture" Margin="0,0,0,4" />
+            </WrapPanel>
+            <TextBlock x:Name="CaptureStatus" Foreground="{StaticResource Accent}" TextWrapping="Wrap" />
+            <Border x:Name="AxisCapturePanel" Visibility="Collapsed" Background="{StaticResource FieldBackground}" BorderBrush="{StaticResource FrameBrush}" BorderThickness="1" Padding="14,10" Margin="0,10,0,0" MinHeight="200" Cursor="Cross">
+                <StackPanel VerticalAlignment="Center">
+                    <TextBlock Text="{loc:Tr MouseAxis.Guide}" Foreground="{StaticResource Accent}" TextWrapping="Wrap" TextAlignment="Center" FontSize="13" />
+                    <TextBlock x:Name="AxisCaptureNote" Foreground="{StaticResource TextSecondary}" TextWrapping="Wrap" TextAlignment="Center" Margin="0,8,0,0" FontSize="11" />
+                </StackPanel>
+            </Border>
+            <TextBlock x:Name="CaptureHelpText" Text="{loc:Tr CaptureHelp}"
+                       Foreground="{StaticResource TextSecondary}" FontSize="12" TextWrapping="Wrap" Margin="0,12,0,0" />
+        </StackPanel>
+        </ScrollViewer>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
+            <Button x:Name="ApplyButton" Content="{loc:Tr Apply}" Click="Apply" IsEnabled="False" Style="{StaticResource PrimaryButton}" />
+            <Button x:Name="CancelButton" Content="{loc:Tr Cancel}" Click="Cancel" Margin="0" />
+        </StackPanel>
+    </Grid>
+</Window>
+

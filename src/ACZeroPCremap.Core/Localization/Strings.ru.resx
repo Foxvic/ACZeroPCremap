@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data xml:space="preserve" name="AppSubtitle">
+    <value>Клавиатура и мышь · dinput.ini</value>
+  </data>
+  <data xml:space="preserve" name="BuildLabel">
+    <value>ACZeroPCremap / 0.8.1</value>
+  </data>
+  <data xml:space="preserve" name="ConfigFile">
+    <value>ФАЙЛ НАСТРОЕК</value>
+  </data>
+  <data xml:space="preserve" name="OpenFile">
+    <value>Открыть файл…</value>
+  </data>
+  <data xml:space="preserve" name="Save">
+    <value>Сохранить</value>
+  </data>
+  <data xml:space="preserve" name="Discard">
+    <value>Отменить изменения</value>
+  </data>
+  <data xml:space="preserve" name="Reload">
+    <value>Перечитать файл</value>
+  </data>
+  <data xml:space="preserve" name="Restore">
+    <value>Восстановить копию…</value>
+  </data>
+  <data xml:space="preserve" name="AddBinding">
+    <value>+ Назначение</value>
+  </data>
+  <data xml:space="preserve" name="Edit">
+    <value>Изменить</value>
+  </data>
+  <data xml:space="preserve" name="Remove">
+    <value>Удалить</value>
+  </data>
+  <data xml:space="preserve" name="Footer">
+    <value>Изменения записываются только при сохранении, с резервной копией. Может потребоваться перезапуск игры.</value>
+  </data>
+  <data xml:space="preserve" name="AssignTitle">
+    <value>Назначить управление — ACZeroPCremap</value>
+  </data>
+  <data xml:space="preserve" name="AssignInstruction">
+    <value>Выберите назначение из списка или захватите клавишу, кнопку, колесо либо движение мыши.</value>
+  </data>
+  <data xml:space="preserve" name="InputLabel">
+    <value>Ввод</value>
+  </data>
+  <data xml:space="preserve" name="Capture">
+    <value>Захватить ввод…</value>
+  </data>
+  <data xml:space="preserve" name="CaptureHelp">
+    <value>Захват ввода принимает клавиши, основные кнопки и колесо мыши. Для осей используйте «Захватить движение мыши». Escape, Tab и Enter можно назначить; «Отмена» завершает захват. Чтобы назначить левую кнопку мыши, нажмите вне кнопок «Стоп» и «Отмена».</value>
+  </data>
+  <data xml:space="preserve" name="Apply">
+    <value>Применить</value>
+  </data>
+  <data xml:space="preserve" name="Cancel">
+    <value>Отмена</value>
+  </data>
+  <data xml:space="preserve" name="CaptureLostFocus">
+    <value>Запись остановлена: окно потеряло фокус.</value>
+  </data>
+  <data xml:space="preserve" name="CaptureWaiting">
+    <value>Ожидание клавиши, кнопки или колеса мыши…</value>
+  </data>
+  <data xml:space="preserve" name="CaptureUnsupported">
+    <value>Этот ввод не поддерживается. Нажмите клавишу, основную кнопку мыши или прокрутите колесо.</value>
+  </data>
+  <data xml:space="preserve" name="CaptureSelected">
+    <value>Выбрано: {0}</value>
+  </data>
+  <data xml:space="preserve" name="NoFile">
+    <value>Файл не выбран. Откройте dinput.ini из папки:
+ACE COMBAT ZERO THE BELKAN WAR (Steam Version)\ACZero\settings
+Запустите игру хотя бы один раз, чтобы она создала INI-файлы.</value>
+  </data>
+  <data xml:space="preserve" name="UnsavedBadge">
+    <value>● Есть несохранённые изменения</value>
+  </data>
+  <data xml:space="preserve" name="ChooseFile">
+    <value>Выберите файл для настройки управления.</value>
+  </data>
+  <data xml:space="preserve" name="FlightTab">
+    <value>Клавиатура / мышь · Полёт</value>
+  </data>
+  <data xml:space="preserve" name="MenuTab">
+    <value>Клавиатура / мышь · Меню</value>
+  </data>
+  <data xml:space="preserve" name="OpenedInitial">
+    <value>Файл открыт. Выберите действие для переназначения.</value>
+  </data>
+  <data xml:space="preserve" name="IniFilter">
+    <value>Файлы INI (*.ini)|*.ini|Все файлы (*.*)|*.*</value>
+  </data>
+  <data xml:space="preserve" name="OpenTitle">
+    <value>Открыть настройки управления</value>
+  </data>
+  <data xml:space="preserve" name="Opened">
+    <value>Файл открыт. Нажмите «Сохранить» для записи изменений.</value>
+  </data>
+  <data xml:space="preserve" name="UnsavedPrompt">
+    <value>Сохранить изменения перед продолжением?
+
+«Сохранить» запишет их в INI. «Не сохранять» отменит изменения при продолжении. «Отмена» оставит текущий редактор открытым.</value>
+  </data>
+  <data xml:space="preserve" name="Unchanged">
+    <value>Нет изменений для сохранения.</value>
+  </data>
+  <data xml:space="preserve" name="Saved">
+    <value>Сохранено. Резервная копия: {0}</value>
+  </data>
+  <data xml:space="preserve" name="DiscardPrompt">
+    <value>Отменить все несохранённые изменения? Файл на диске не изменится.</value>
+  </data>
+  <data xml:space="preserve" name="Discarded">
+    <value>Несохранённые изменения отменены.</value>
+  </data>
+  <data xml:space="preserve" name="ReloadPrompt">
+    <value>Перечитать файл с диска? Несохранённые изменения будут потеряны.</value>
+  </data>
+  <data xml:space="preserve" name="Reloaded">
+    <value>Файл перечитан с диска.</value>
+  </data>
+  <data xml:space="preserve" name="BackupFilter">
+    <value>Резервные копии (*.bak)|*.bak|Все файлы (*.*)|*.*</value>
+  </data>
+  <data xml:space="preserve" name="SelectBackup">
+    <value>Выберите резервную копию</value>
+  </data>
+  <data xml:space="preserve" name="RestorePrompt">
+    <value>Заменить ВЕСЬ открытый INI, включая настройки устройств, этой копией?
+
+{0}
+Изменён: {1}
+
+Сначала текущий файл будет сохранён в новую резервную копию.</value>
+  </data>
+  <data xml:space="preserve" name="RestoreTitle">
+    <value>Восстановление копии</value>
+  </data>
+  <data xml:space="preserve" name="Restored">
+    <value>Файл восстановлен. Предыдущая версия: {0}</value>
+  </data>
+  <data xml:space="preserve" name="Assigned">
+    <value>Назначение изменено. Сохраните файл для записи INI.</value>
+  </data>
+  <data xml:space="preserve" name="RemovePrompt">
+    <value>Удалить «{0}» из действия «{1}»?
+
+Будет удалено только это назначение. Остальные назначения действия сохранятся.</value>
+  </data>
+  <data xml:space="preserve" name="RemoveTitle">
+    <value>Удалить назначение</value>
+  </data>
+  <data xml:space="preserve" name="Removed">
+    <value>Назначение удалено. Сохраните файл, чтобы применить изменение.</value>
+  </data>
+  <data xml:space="preserve" name="FileContext">
+    <value>
+
+Файл: {0}</value>
+  </data>
+  <data xml:space="preserve" name="OperationFailed">
+    <value>ACZeroPCremap — операция не выполнена</value>
+  </data>
+  <data xml:space="preserve" name="OpenConfig">
+    <value>Откройте файл настроек управления.</value>
+  </data>
+  <data xml:space="preserve" name="SharedBindings">
+    <value>Предупреждение — общие назначения во вкладке (допустимы): </value>
+  </data>
+  <data xml:space="preserve" name="NoSimpleBindings">
+    <value>Нет простых назначений</value>
+  </data>
+  <data xml:space="preserve" name="ReadOnlyPrefix">
+    <value>Только чтение · </value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATL">
+    <value>Ведомый: рассредоточиться</value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATR">
+    <value>Ведомый: спецоружие</value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATU">
+    <value>Ведомый: атаковать</value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATD">
+    <value>Ведомый: прикрыть</value>
+  </data>
+  <data xml:space="preserve" name="Flight.LX-">
+    <value>Крен влево</value>
+  </data>
+  <data xml:space="preserve" name="Flight.LX+">
+    <value>Крен вправо</value>
+  </data>
+  <data xml:space="preserve" name="Flight.LY-">
+    <value>Нос вниз</value>
+  </data>
+  <data xml:space="preserve" name="Flight.LY+">
+    <value>Нос вверх</value>
+  </data>
+  <data xml:space="preserve" name="Camera.Left">
+    <value>Взгляд влево</value>
+  </data>
+  <data xml:space="preserve" name="Camera.Right">
+    <value>Взгляд вправо</value>
+  </data>
+  <data xml:space="preserve" name="Camera.Up">
+    <value>Взгляд вверх</value>
+  </data>
+  <data xml:space="preserve" name="Camera.Down">
+    <value>Взгляд вниз</value>
+  </data>
+  <data xml:space="preserve" name="Flight.LT">
+    <value>Замедление / воздушный тормоз</value>
+  </data>
+  <data xml:space="preserve" name="Flight.RT">
+    <value>Ускорение</value>
+  </data>
+  <data xml:space="preserve" name="Flight.LB">
+    <value>Рыскание влево</value>
+  </data>
+  <data xml:space="preserve" name="Flight.RB">
+    <value>Рыскание вправо</value>
+  </data>
+  <data xml:space="preserve" name="Flight.A">
+    <value>Огонь из пушки</value>
+  </data>
+  <data xml:space="preserve" name="Flight.B">
+    <value>Ракета / спецоружие</value>
+  </data>
+  <data xml:space="preserve" name="Flight.X">
+    <value>Сменить оружие</value>
+  </data>
+  <data xml:space="preserve" name="Flight.Y">
+    <value>Сменить цель</value>
+  </data>
+  <data xml:space="preserve" name="Flight.LSC">
+    <value>Режим Boresight</value>
+  </data>
+  <data xml:space="preserve" name="Flight.RSC">
+    <value>Сменить вид камеры</value>
+  </data>
+  <data xml:space="preserve" name="Flight.MENU">
+    <value>Пауза</value>
+  </data>
+  <data xml:space="preserve" name="Flight.VIEW">
+    <value>Радар / карта</value>
+  </data>
+  <data xml:space="preserve" name="UnknownAction">
+    <value>Неизвестное действие ({0})</value>
+  </data>
+  <data xml:space="preserve" name="Menu.Left">
+    <value>Перейти влево</value>
+  </data>
+  <data xml:space="preserve" name="Menu.Right">
+    <value>Перейти вправо</value>
+  </data>
+  <data xml:space="preserve" name="Menu.Up">
+    <value>Перейти вверх</value>
+  </data>
+  <data xml:space="preserve" name="Menu.Down">
+    <value>Перейти вниз</value>
+  </data>
+  <data xml:space="preserve" name="Menu.A">
+    <value>Подтвердить выбор</value>
+  </data>
+  <data xml:space="preserve" name="Menu.B">
+    <value>Отмена / назад</value>
+  </data>
+  <data xml:space="preserve" name="Menu.MENU">
+    <value>Назад / меню</value>
+  </data>
+  <data xml:space="preserve" name="Menu.X">
+    <value>Сменить отображение</value>
+  </data>
+  <data xml:space="preserve" name="Menu.Y">
+    <value>Дополнительное действие повтора</value>
+  </data>
+  <data xml:space="preserve" name="Menu.LB">
+    <value>Дополнительное действие повтора 1</value>
+  </data>
+  <data xml:space="preserve" name="Menu.RB">
+    <value>Дополнительное действие повтора 2</value>
+  </data>
+  <data xml:space="preserve" name="Menu.VIEW">
+    <value>Дополнительное действие экрана повтора</value>
+  </data>
+  <data xml:space="preserve" name="Menu.Unused">
+    <value>Не используется (INI)</value>
+  </data>
+  <data xml:space="preserve" name="Menu.Note">
+    <value>«Навигация» и «Выбор» управляют меню. «Камера» и «Дополнительные действия» относятся к повторам после миссии. «Не используется» содержит записи из INI, назначение которых неизвестно; привязки сохранены.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.Note">
+    <value>Названия соответствуют схеме ZERO и режиму Normal. В ACE5 оружие и радар меняются местами. Автопилот: одновременно нажмите оба направления рыскания.</value>
+  </data>
+  <data xml:space="preserve" name="Menu.UnusedHint">
+    <value>Эти записи присутствуют в INI, но их назначение неизвестно. Привязки сохранены.</value>
+  </data>
+  <data xml:space="preserve" name="Menu.ContextHint">
+    <value>Дополнительное управление повтором после миссии. Следуйте подсказкам экрана повтора.</value>
+  </data>
+  <data xml:space="preserve" name="Menu.DisplayHint">
+    <value>Изменение отображения в повторе после миссии. Следуйте подсказкам экрана повтора.</value>
+  </data>
+  <data xml:space="preserve" name="Menu.CameraHint">
+    <value>Движение камеры в повторе после миссии. Направление зависит от настроек инверсии.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATLHint">
+    <value>Прикажите ведомому рассредоточиться: сосредоточиться на воздушных, любых или наземных целях.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATRHint">
+    <value>Разрешите или запретите ведомому применять специальное оружие.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATUHint">
+    <value>Прикажите ведомому атаковать противника впереди.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATDHint">
+    <value>Прикажите ведомому прикрывать ваш самолёт.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.RollHint">
+    <value>Крен в режиме Normal; поворот самолёта в режиме Novice.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.PitchDownHint">
+    <value>Опускает нос. В исходном управлении PS2 это направление оси вверх.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.PitchUpHint">
+    <value>Поднимает нос. В исходном управлении PS2 это направление оси вниз.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.BrakeHint">
+    <value>Уменьшает тягу. Удерживайте для максимального замедления.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.ThrottleHint">
+    <value>Увеличивает тягу. Удерживайте для максимального ускорения.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.YawHint">
+    <value>Рыскание рулём направления. Нажмите оба направления одновременно для включения автопилота.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.GunHint">
+    <value>Удерживайте для непрерывного огня из пушки.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.MissileHint">
+    <value>Запускает выбранную ракету или спецоружие. Удерживайте для слежения за запущенной ракетой.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.TargetHint">
+    <value>Выбирает другую цель. Удерживайте для слежения камерой за целью.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.WeaponHint">
+    <value>Переключает обычные ракеты и спецоружие в схеме ZERO.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.RadarHint">
+    <value>Меняет вид или масштаб радара / карты в схеме ZERO.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.BoresightHint">
+    <value>Переключает режим Boresight: приоритет цели в прицельном круге перед самолётом.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.ViewHint">
+    <value>Переключает виды: HUD, кабина и от третьего лица.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.CameraHint">
+    <value>Обзор в полёте. Направление зависит от инверсии камеры.</value>
+  </data>
+  <data xml:space="preserve" name="Mouse.Left">
+    <value>Левая кнопка мыши</value>
+  </data>
+  <data xml:space="preserve" name="Mouse.Right">
+    <value>Правая кнопка мыши</value>
+  </data>
+  <data xml:space="preserve" name="Mouse.Middle">
+    <value>Средняя кнопка мыши</value>
+  </data>
+  <data xml:space="preserve" name="Error.Utf8Only">
+    <value>Поддерживаются только INI в UTF-8. Файл не изменён.</value>
+  </data>
+  <data xml:space="preserve" name="Error.BinaryFile">
+    <value>Неподдерживаемая кодировка или двоичный файл. Ожидается INI в UTF-8.</value>
+  </data>
+  <data xml:space="preserve" name="Error.MissingSection">
+    <value>Отсутствует раздел [{0}]. Разделы не создаются автоматически.</value>
+  </data>
+  <data xml:space="preserve" name="Error.RepeatedSection">
+    <value>Раздел [{0}] объявлен несколько раз. Редактирование отключено из-за неоднозначности формата.</value>
+  </data>
+  <data xml:space="preserve" name="Error.ReadOnlyBinding">
+    <value>Сложные или неизвестные назначения доступны только для чтения.</value>
+  </data>
+  <data xml:space="preserve" name="Error.UnknownAction">
+    <value>Неизвестное действие.</value>
+  </data>
+  <data xml:space="preserve" name="Error.DeviceSections">
+    <value>Этот раздел нельзя редактировать выбранным типом ввода.</value>
+  </data>
+  <data xml:space="preserve" name="Error.UnsupportedInput">
+    <value>Неподдерживаемое значение ввода.</value>
+  </data>
+  <data xml:space="preserve" name="Error.DuplicateBinding">
+    <value>Это назначение уже есть у выбранного действия.</value>
+  </data>
+  <data xml:space="preserve" name="Error.ExternalChange">
+    <value>Файл изменён другим приложением. Сохранение отменено. Перечитайте файл перед продолжением.</value>
+  </data>
+  <data xml:space="preserve" name="Error.DirtyRestore">
+    <value>Сначала сохраните или отмените несохранённые изменения.</value>
+  </data>
+  <data xml:space="preserve" name="Error.SelectBackup">
+    <value>Выберите резервную копию, а не открытый INI.</value>
+  </data>
+  <data xml:space="preserve" name="Error.InvalidBackup">
+    <value>В копии нет разделов клавиатуры или профилей устройств DirectInput.</value>
+  </data>
+  <data xml:space="preserve" name="Error.VerifyWrite">
+    <value>Не удалось проверить записанный файл.</value>
+  </data>
+  <data xml:space="preserve" name="Yes">
+    <value>Да</value>
+  </data>
+  <data xml:space="preserve" name="No">
+    <value>Нет</value>
+  </data>
+  <data xml:space="preserve" name="OK">
+    <value>ОК</value>
+  </data>
+  <data xml:space="preserve" name="DontSave">
+    <value>Не сохранять</value>
+  </data>
+  <data xml:space="preserve" name="Error.FileMissing">
+    <value>Выбранный файл или папка больше не существует. Проверьте расположение и повторите попытку.</value>
+  </data>
+  <data xml:space="preserve" name="Error.AccessDenied">
+    <value>Доступ запрещён. Проверьте права на папку и атрибут «Только чтение» у файла.</value>
+  </data>
+  <data xml:space="preserve" name="Error.FileAccess">
+    <value>Операция с файлом не выполнена. Проверьте доступность диска, свободное место и отсутствие блокировки другим приложением.</value>
+  </data>
+  <data xml:space="preserve" name="Error.Unexpected">
+    <value>Не удалось выполнить операцию.</value>
+  </data>
+  <data xml:space="preserve" name="Key.01">
+    <value>Esc</value>
+  </data>
+  <data xml:space="preserve" name="Key.02">
+    <value>1</value>
+  </data>
+  <data xml:space="preserve" name="Key.03">
+    <value>2</value>
+  </data>
+  <data xml:space="preserve" name="Key.04">
+    <value>3</value>
+  </data>
+  <data xml:space="preserve" name="Key.05">
+    <value>4</value>
+  </data>
+  <data xml:space="preserve" name="Key.06">
+    <value>5</value>
+  </data>
+  <data xml:space="preserve" name="Key.07">
+    <value>6</value>
+  </data>
+  <data xml:space="preserve" name="Key.08">
+    <value>7</value>
+  </data>
+  <data xml:space="preserve" name="Key.09">
+    <value>8</value>
+  </data>
+  <data xml:space="preserve" name="Key.0A">
+    <value>9</value>
+  </data>
+  <data xml:space="preserve" name="Key.0B">
+    <value>0</value>
+  </data>
+  <data xml:space="preserve" name="Key.10">
+    <value>Q</value>
+  </data>
+  <data xml:space="preserve" name="Key.11">
+    <value>W</value>
+  </data>
+  <data xml:space="preserve" name="Key.12">
+    <value>E</value>
+  </data>
+  <data xml:space="preserve" name="Key.13">
+    <value>R</value>
+  </data>
+  <data xml:space="preserve" name="Key.14">
+    <value>T</value>
+  </data>
+  <data xml:space="preserve" name="Key.15">
+    <value>Y</value>
+  </data>
+  <data xml:space="preserve" name="Key.16">
+    <value>U</value>
+  </data>
+  <data xml:space="preserve" name="Key.17">
+    <value>I</value>
+  </data>
+  <data xml:space="preserve" name="Key.18">
+    <value>O</value>
+  </data>
+  <data xml:space="preserve" name="Key.19">
+    <value>P</value>
+  </data>
+  <data xml:space="preserve" name="Key.1E">
+    <value>A</value>
+  </data>
+  <data xml:space="preserve" name="Key.1F">
+    <value>S</value>
+  </data>
+  <data xml:space="preserve" name="Key.20">
+    <value>D</value>
+  </data>
+  <data xml:space="preserve" name="Key.21">
+    <value>F</value>
+  </data>
+  <data xml:space="preserve" name="Key.22">
+    <value>G</value>
+  </data>
+  <data xml:space="preserve" name="Key.23">
+    <value>H</value>
+  </data>
+  <data xml:space="preserve" name="Key.24">
+    <value>J</value>
+  </data>
+  <data xml:space="preserve" name="Key.25">
+    <value>K</value>
+  </data>
+  <data xml:space="preserve" name="Key.26">
+    <value>L</value>
+  </data>
+  <data xml:space="preserve" name="Key.2C">
+    <value>Z</value>
+  </data>
+  <data xml:space="preserve" name="Key.2D">
+    <value>X</value>
+  </data>
+  <data xml:space="preserve" name="Key.2E">
+    <value>C</value>
+  </data>
+  <data xml:space="preserve" name="Key.2F">
+    <value>V</value>
+  </data>
+  <data xml:space="preserve" name="Key.30">
+    <value>B</value>
+  </data>
+  <data xml:space="preserve" name="Key.31">
+    <value>N</value>
+  </data>
+  <data xml:space="preserve" name="Key.32">
+    <value>M</value>
+  </data>
+  <data xml:space="preserve" name="Key.0C">
+    <value>-</value>
+  </data>
+  <data xml:space="preserve" name="Key.0D">
+    <value>=</value>
+  </data>
+  <data xml:space="preserve" name="Key.0E">
+    <value>Backspace</value>
+  </data>
+  <data xml:space="preserve" name="Key.0F">
+    <value>Tab</value>
+  </data>
+  <data xml:space="preserve" name="Key.1A">
+    <value>[</value>
+  </data>
+  <data xml:space="preserve" name="Key.1B">
+    <value>]</value>
+  </data>
+  <data xml:space="preserve" name="Key.1C">
+    <value>Enter</value>
+  </data>
+  <data xml:space="preserve" name="Key.1D">
+    <value>Левый Ctrl</value>
+  </data>
+  <data xml:space="preserve" name="Key.27">
+    <value>;</value>
+  </data>
+  <data xml:space="preserve" name="Key.28">
+    <value>'</value>
+  </data>
+  <data xml:space="preserve" name="Key.29">
+    <value>`</value>
+  </data>
+  <data xml:space="preserve" name="Key.2A">
+    <value>Левый Shift</value>
+  </data>
+  <data xml:space="preserve" name="Key.2B">
+    <value>\</value>
+  </data>
+  <data xml:space="preserve" name="Key.33">
+    <value>,</value>
+  </data>
+  <data xml:space="preserve" name="Key.34">
+    <value>.</value>
+  </data>
+  <data xml:space="preserve" name="Key.35">
+    <value>/</value>
+  </data>
+  <data xml:space="preserve" name="Key.36">
+    <value>Правый Shift</value>
+  </data>
+  <data xml:space="preserve" name="Key.37">
+    <value>Num *</value>
+  </data>
+  <data xml:space="preserve" name="Key.38">
+    <value>Левый Alt</value>
+  </data>
+  <data xml:space="preserve" name="Key.39">
+    <value>Пробел</value>
+  </data>
+  <data xml:space="preserve" name="Key.3A">
+    <value>Caps Lock</value>
+  </data>
+  <data xml:space="preserve" name="Key.45">
+    <value>Num Lock</value>
+  </data>
+  <data xml:space="preserve" name="Key.46">
+    <value>Scroll Lock</value>
+  </data>
+  <data xml:space="preserve" name="Key.47">
+    <value>Num 7</value>
+  </data>
+  <data xml:space="preserve" name="Key.48">
+    <value>Num 8</value>
+  </data>
+  <data xml:space="preserve" name="Key.49">
+    <value>Num 9</value>
+  </data>
+  <data xml:space="preserve" name="Key.4A">
+    <value>Num -</value>
+  </data>
+  <data xml:space="preserve" name="Key.4B">
+    <value>Num 4</value>
+  </data>
+  <data xml:space="preserve" name="Key.4C">
+    <value>Num 5</value>
+  </data>
+  <data xml:space="preserve" name="Key.4D">
+    <value>Num 6</value>
+  </data>
+  <data xml:space="preserve" name="Key.4E">
+    <value>Num +</value>
+  </data>
+  <data xml:space="preserve" name="Key.4F">
+    <value>Num 1</value>
+  </data>
+  <data xml:space="preserve" name="Key.50">
+    <value>Num 2</value>
+  </data>
+  <data xml:space="preserve" name="Key.51">
+    <value>Num 3</value>
+  </data>
+  <data xml:space="preserve" name="Key.52">
+    <value>Num 0</value>
+  </data>
+  <data xml:space="preserve" name="Key.53">
+    <value>Num .</value>
+  </data>
+  <data xml:space="preserve" name="Key.56">
+    <value>OEM 102</value>
+  </data>
+  <data xml:space="preserve" name="Key.9C">
+    <value>Num Enter</value>
+  </data>
+  <data xml:space="preserve" name="Key.9D">
+    <value>Правый Ctrl</value>
+  </data>
+  <data xml:space="preserve" name="Key.B5">
+    <value>Num /</value>
+  </data>
+  <data xml:space="preserve" name="Key.B7">
+    <value>Print Screen</value>
+  </data>
+  <data xml:space="preserve" name="Key.B8">
+    <value>Правый Alt</value>
+  </data>
+  <data xml:space="preserve" name="Key.C5">
+    <value>Pause</value>
+  </data>
+  <data xml:space="preserve" name="Key.C7">
+    <value>Home</value>
+  </data>
+  <data xml:space="preserve" name="Key.C8">
+    <value>Вверх</value>
+  </data>
+  <data xml:space="preserve" name="Key.C9">
+    <value>Page Up</value>
+  </data>
+  <data xml:space="preserve" name="Key.CB">
+    <value>Влево</value>
+  </data>
+  <data xml:space="preserve" name="Key.CD">
+    <value>Вправо</value>
+  </data>
+  <data xml:space="preserve" name="Key.CF">
+    <value>End</value>
+  </data>
+  <data xml:space="preserve" name="Key.D0">
+    <value>Вниз</value>
+  </data>
+  <data xml:space="preserve" name="Key.D1">
+    <value>Page Down</value>
+  </data>
+  <data xml:space="preserve" name="Key.D2">
+    <value>Insert</value>
+  </data>
+  <data xml:space="preserve" name="Key.D3">
+    <value>Delete</value>
+  </data>
+  <data xml:space="preserve" name="Key.DB">
+    <value>Левый Win</value>
+  </data>
+  <data xml:space="preserve" name="Key.DC">
+    <value>Правый Win</value>
+  </data>
+  <data xml:space="preserve" name="Key.DD">
+    <value>Меню приложения</value>
+  </data>
+  <data xml:space="preserve" name="Key.3B">
+    <value>F1</value>
+  </data>
+  <data xml:space="preserve" name="Key.3C">
+    <value>F2</value>
+  </data>
+  <data xml:space="preserve" name="Key.3D">
+    <value>F3</value>
+  </data>
+  <data xml:space="preserve" name="Key.3E">
+    <value>F4</value>
+  </data>
+  <data xml:space="preserve" name="Key.3F">
+    <value>F5</value>
+  </data>
+  <data xml:space="preserve" name="Key.40">
+    <value>F6</value>
+  </data>
+  <data xml:space="preserve" name="Key.41">
+    <value>F7</value>
+  </data>
+  <data xml:space="preserve" name="Key.42">
+    <value>F8</value>
+  </data>
+  <data xml:space="preserve" name="Key.43">
+    <value>F9</value>
+  </data>
+  <data xml:space="preserve" name="Key.44">
+    <value>F10</value>
+  </data>
+  <data xml:space="preserve" name="Key.57">
+    <value>F11</value>
+  </data>
+  <data xml:space="preserve" name="Key.58">
+    <value>F12</value>
+  </data>
+  <data xml:space="preserve" name="Group.All">
+    <value>Все группы</value>
+  </data>
+  <data xml:space="preserve" name="Group.Flight">
+    <value>Полёт</value>
+  </data>
+  <data xml:space="preserve" name="Group.Weapons">
+    <value>Оружие</value>
+  </data>
+  <data xml:space="preserve" name="Group.Camera">
+    <value>Камера</value>
+  </data>
+  <data xml:space="preserve" name="Group.Wingman">
+    <value>Ведомый</value>
+  </data>
+  <data xml:space="preserve" name="Group.Navigation">
+    <value>Навигация</value>
+  </data>
+  <data xml:space="preserve" name="Group.Selection">
+    <value>Выбор</value>
+  </data>
+  <data xml:space="preserve" name="Group.Additional">
+    <value>Дополнительные действия</value>
+  </data>
+  <data xml:space="preserve" name="Group.Unused">
+    <value>Не используется</value>
+  </data>
+  <data xml:space="preserve" name="Group.Other">
+    <value>Прочее</value>
+  </data>
+  <data xml:space="preserve" name="Group.Count">
+    <value>Действий: {0}</value>
+  </data>
+  <data xml:space="preserve" name="Group.Label">
+    <value>Фильтр по группе</value>
+  </data>
+  <data xml:space="preserve" name="Search.Label">
+    <value>Поиск назначений</value>
+  </data>
+  <data xml:space="preserve" name="Search.Placeholder">
+    <value>Поиск действий, клавиш или кодов…  Ctrl+F</value>
+  </data>
+  <data xml:space="preserve" name="Search.Hint">
+    <value>Поиск по названиям действий, групп, клавиш, идентификаторам INI и выражениям. Должны совпасть все слова.</value>
+  </data>
+  <data xml:space="preserve" name="Search.Clear">
+    <value>Очистить</value>
+  </data>
+  <data xml:space="preserve" name="Search.Results">
+    <value>Действий: {0} из {1}</value>
+  </data>
+  <data xml:space="preserve" name="Search.NoResults">
+    <value>Подходящих действий нет</value>
+  </data>
+  <data xml:space="preserve" name="Search.TryAgain">
+    <value>Измените запрос или выберите другую группу.</value>
+  </data>
+  <data xml:space="preserve" name="Search.Reset">
+    <value>Сбросить фильтры</value>
+  </data>
+  <data xml:space="preserve" name="Binding.EditHint">
+    <value>Нажмите на назначение для изменения.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.ShortNote">
+    <value>Схема ZERO · Режим Normal. Наведите для различий схем и управления автопилотом.</value>
+  </data>
+  <data xml:space="preserve" name="Menu.ShortNote">
+    <value>«Навигация» / «Выбор»: меню. «Камера» / «Дополнительные действия»: повторы после миссии. «Не используется»: записи INI с неизвестным назначением.</value>
+  </data>
+  <data xml:space="preserve" name="Group.CountOne">
+    <value>1 действие</value>
+  </data>
+  <data name="UI.MenuPath" xml:space="preserve">
+    <value>ГЛАВНОЕ МЕНЮ  ›  НАСТРОЙКИ</value>
+  </data>
+  <data name="UI.ControlTitle" xml:space="preserve">
+    <value>НАСТРОЙКА УПРАВЛЕНИЯ</value>
+  </data>
+  <data name="UI.BindingPath" xml:space="preserve">
+    <value>УПРАВЛЕНИЕ  ›  НАЗНАЧИТЬ ВВОД</value>
+  </data>
+  <data name="UI.MessagePath" xml:space="preserve">
+    <value>ACZeroPCremap  ›  ПОДТВЕРЖДЕНИЕ</value>
+  </data>
+  <data name="UI.Minimize" xml:space="preserve">
+    <value>Свернуть окно</value>
+  </data>
+  <data name="UI.Maximize" xml:space="preserve">
+    <value>Развернуть / восстановить окно</value>
+  </data>
+  <data name="UI.Close" xml:space="preserve">
+    <value>Закрыть окно</value>
+  </data>
+  <data name="Language.Label" xml:space="preserve">
+    <value>ЯЗЫК</value>
+  </data>
+  <data name="Language.Hint" xml:space="preserve">
+    <value>Сменить язык интерфейса. Выбор сохраняется отдельно от настроек игры.</value>
+  </data>
+  <data name="Language.Changed" xml:space="preserve">
+    <value>Язык интерфейса изменён. Назначения и несохранённые изменения не потеряны.</value>
+  </data>
+  <data name="Language.SaveFailed" xml:space="preserve">
+    <value>Язык изменён для текущего сеанса, но сохранить выбор не удалось. Проверьте доступ к папке настроек приложения.</value>
+  </data>
+  <data name="Binding.SharedWarning" xml:space="preserve">
+    <value>Предупреждение: {0} уже используется другими действиями в этой вкладке: {1}.</value>
+  </data>
+  <data name="Binding.SharedConfirm" xml:space="preserve">
+    <value>Оставить этот ввод назначенным нескольким действиям?</value>
+  </data>
+  <data name="Binding.SharedTitle" xml:space="preserve">
+    <value>Общее назначение ввода</value>
+  </data>
+  <data name="MouseFlight.Use" xml:space="preserve">
+    <value>Использовать мышь в полёте</value>
+  </data>
+  <data name="MouseFlight.Help" xml:space="preserve">
+    <value>Снимите галочку, чтобы отключить все назначения мыши в полёте: кнопки, колесо, движение и управление камерой. Установите её снова для восстановления. Изменения остаются в памяти до сохранения; назначения в меню не меняются.</value>
+  </data>
+  <data name="MouseFlight.Unavailable" xml:space="preserve">
+    <value>Откройте настройки полёта с назначениями мыши. Если их нет, сначала добавьте кнопку мыши через «+ Назначение».</value>
+  </data>
+  <data name="MouseFlight.Enabled" xml:space="preserve">
+    <value>Назначения мыши в полёте восстановлены. Сохраните файл для применения.</value>
+  </data>
+  <data name="MouseFlight.Disabled" xml:space="preserve">
+    <value>Все назначения мыши в полёте отключены. Сохраните для применения; включите галочку для восстановления.</value>
+  </data>
+  <data name="Menu.ReplayGroupNote" xml:space="preserve">
+    <value>Управление повтором после миссии.</value>
+  </data>
+  <data name="UI.PixyQuote" xml:space="preserve">
+    <value>Can you see any borders from here?
+What have the PC port’s limitations given us?</value>
+  </data>
+  <data name="MouseAxis.Left" xml:space="preserve"><value>Мышь влево</value></data>
+  <data name="MouseAxis.Right" xml:space="preserve"><value>Мышь вправо</value></data>
+  <data name="MouseAxis.Up" xml:space="preserve"><value>Мышь вверх</value></data>
+  <data name="MouseAxis.Down" xml:space="preserve"><value>Мышь вниз</value></data>
+  <data name="MouseAxis.AbsoluteLeft" xml:space="preserve"><value>Положение мыши влево</value></data>
+  <data name="MouseAxis.AbsoluteRight" xml:space="preserve"><value>Положение мыши вправо</value></data>
+  <data name="MouseAxis.AbsoluteUp" xml:space="preserve"><value>Положение мыши вверх</value></data>
+  <data name="MouseAxis.AbsoluteDown" xml:space="preserve"><value>Положение мыши вниз</value></data>
+  <data name="MouseAxis.WheelUp" xml:space="preserve"><value>Колесо мыши вверх</value></data>
+  <data name="MouseAxis.WheelDown" xml:space="preserve"><value>Колесо мыши вниз</value></data>
+  <data name="MouseAxis.Capture" xml:space="preserve"><value>Захватить движение мыши…</value></data>
+  <data name="MouseAxis.Waiting" xml:space="preserve"><value>Наведите курсор на область, сделайте короткую паузу, затем переместите мышь в одну сторону.</value></data>
+  <data name="MouseAxis.Guide" xml:space="preserve"><value>Внутри этой области уверенно переместите мышь влево, вправо, вверх или вниз.</value></data>
+  <data name="MouseAxis.NewNote" xml:space="preserve"><value>Новое назначение движения использует относительную ось. Проверьте результат перед применением.</value></data>
+  <data name="MouseAxis.RetainNote" xml:space="preserve"><value>Для того же типа ввода сохраняются режим оси, чувствительность и условие клавиши.</value></data>
+  <data name="MouseAxis.Stop" xml:space="preserve"><value>Стоп</value></data>
+  <data name="CaptureStopped" xml:space="preserve"><value>Захват остановлен.</value></data>
+  <data name="UI.MoreActions" xml:space="preserve"><value>Другие действия</value></data>
+</root>

@@ -1,0 +1,9 @@
+ACZeroPCremap third-party notices
+
+The portable release bundles the Microsoft .NET and Windows Desktop
+runtimes. Their MIT license texts and .NET third-party attribution are
+included under licenses/ in the player package, copied from the actual
+runtime pack versions used for the build.
+
+Some runtime components have separate notices and license terms; retain
+all files in licenses/ when redistributing the portable package.

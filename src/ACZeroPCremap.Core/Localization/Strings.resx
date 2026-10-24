@@ -1,0 +1,920 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms</value>
+  </resheader>
+  <data xml:space="preserve" name="AppSubtitle">
+    <value>Keyboard &amp; mouse · dinput.ini</value>
+  </data>
+  <data xml:space="preserve" name="BuildLabel">
+    <value>ACZeroPCremap / 0.8.1</value>
+  </data>
+  <data xml:space="preserve" name="ConfigFile">
+    <value>CONFIGURATION FILE</value>
+  </data>
+  <data xml:space="preserve" name="OpenFile">
+    <value>Open file…</value>
+  </data>
+  <data xml:space="preserve" name="Save">
+    <value>Save</value>
+  </data>
+  <data xml:space="preserve" name="Discard">
+    <value>Discard changes</value>
+  </data>
+  <data xml:space="preserve" name="Reload">
+    <value>Reload file</value>
+  </data>
+  <data xml:space="preserve" name="Restore">
+    <value>Restore backup…</value>
+  </data>
+  <data xml:space="preserve" name="AddBinding">
+    <value>+ Binding</value>
+  </data>
+  <data xml:space="preserve" name="Edit">
+    <value>Edit</value>
+  </data>
+  <data xml:space="preserve" name="Remove">
+    <value>Remove</value>
+  </data>
+  <data xml:space="preserve" name="Footer">
+    <value>Changes are written only when you save, with a backup. You may need to restart the game.</value>
+  </data>
+  <data xml:space="preserve" name="AssignTitle">
+    <value>Assign binding — ACZeroPCremap</value>
+  </data>
+  <data xml:space="preserve" name="AssignInstruction">
+    <value>Choose an input from the list, or capture a key, mouse button, wheel or mouse movement.</value>
+  </data>
+  <data xml:space="preserve" name="InputLabel">
+    <value>Input</value>
+  </data>
+  <data xml:space="preserve" name="Capture">
+    <value>Capture input…</value>
+  </data>
+  <data xml:space="preserve" name="CaptureHelp">
+    <value>Capture input accepts keys, main mouse buttons and the wheel. Use Capture mouse movement for axes. Escape, Tab and Enter are assignable; Cancel stops capture. To assign the left mouse button, click outside Stop and Cancel.</value>
+  </data>
+  <data xml:space="preserve" name="Apply">
+    <value>Apply</value>
+  </data>
+  <data xml:space="preserve" name="Cancel">
+    <value>Cancel</value>
+  </data>
+  <data xml:space="preserve" name="CaptureLostFocus">
+    <value>Capture stopped because the window lost focus.</value>
+  </data>
+  <data xml:space="preserve" name="CaptureWaiting">
+    <value>Waiting for a key, mouse button or wheel…</value>
+  </data>
+  <data xml:space="preserve" name="CaptureUnsupported">
+    <value>This input is not supported. Try a key, a main mouse button or the wheel.</value>
+  </data>
+  <data xml:space="preserve" name="CaptureSelected">
+    <value>Selected: {0}</value>
+  </data>
+  <data xml:space="preserve" name="NoFile">
+    <value>No file selected. Open dinput.ini from:
+ACE COMBAT ZERO THE BELKAN WAR (Steam Version)\ACZero\settings
+Launch the game at least once to generate the INI files.</value>
+  </data>
+  <data xml:space="preserve" name="UnsavedBadge">
+    <value>● Unsaved changes</value>
+  </data>
+  <data xml:space="preserve" name="ChooseFile">
+    <value>Choose a file to configure your controls.</value>
+  </data>
+  <data xml:space="preserve" name="FlightTab">
+    <value>Keyboard / mouse · Flight</value>
+  </data>
+  <data xml:space="preserve" name="MenuTab">
+    <value>Keyboard / mouse · Menus</value>
+  </data>
+  <data xml:space="preserve" name="OpenedInitial">
+    <value>File opened. Choose a game action to rebind.</value>
+  </data>
+  <data xml:space="preserve" name="IniFilter">
+    <value>INI files (*.ini)|*.ini|All files (*.*)|*.*</value>
+  </data>
+  <data xml:space="preserve" name="OpenTitle">
+    <value>Open control settings</value>
+  </data>
+  <data xml:space="preserve" name="Opened">
+    <value>File opened. Click Save to write your changes.</value>
+  </data>
+  <data xml:space="preserve" name="UnsavedPrompt">
+    <value>Save your changes before continuing?
+
+Save writes them to the INI. Don’t save discards them when you continue. Cancel keeps the current editor open.</value>
+  </data>
+  <data xml:space="preserve" name="Unchanged">
+    <value>No changes to save.</value>
+  </data>
+  <data xml:space="preserve" name="Saved">
+    <value>Saved. Backup: {0}</value>
+  </data>
+  <data xml:space="preserve" name="DiscardPrompt">
+    <value>Discard all unsaved changes? The file on disk will not be changed.</value>
+  </data>
+  <data xml:space="preserve" name="Discarded">
+    <value>Unsaved changes discarded.</value>
+  </data>
+  <data xml:space="preserve" name="ReloadPrompt">
+    <value>Reload the file from disk? Your unsaved changes will be lost.</value>
+  </data>
+  <data xml:space="preserve" name="Reloaded">
+    <value>File reloaded from disk.</value>
+  </data>
+  <data xml:space="preserve" name="BackupFilter">
+    <value>Backup files (*.bak)|*.bak|All files (*.*)|*.*</value>
+  </data>
+  <data xml:space="preserve" name="SelectBackup">
+    <value>Select a backup</value>
+  </data>
+  <data xml:space="preserve" name="RestorePrompt">
+    <value>Replace the ENTIRE open INI, including device settings, with this backup?
+
+{0}
+Modified: {1}
+
+The current file will be saved as a new backup first.</value>
+  </data>
+  <data xml:space="preserve" name="RestoreTitle">
+    <value>Restore backup</value>
+  </data>
+  <data xml:space="preserve" name="Restored">
+    <value>File restored. Previous version: {0}</value>
+  </data>
+  <data xml:space="preserve" name="Assigned">
+    <value>Binding updated. Click Save to write the INI.</value>
+  </data>
+  <data xml:space="preserve" name="RemovePrompt">
+    <value>Remove “{0}” from “{1}”?
+
+Only this binding will be removed. Other bindings for the action will be kept.</value>
+  </data>
+  <data xml:space="preserve" name="RemoveTitle">
+    <value>Remove binding</value>
+  </data>
+  <data xml:space="preserve" name="Removed">
+    <value>Binding removed. Save the file to apply the change.</value>
+  </data>
+  <data xml:space="preserve" name="FileContext">
+    <value>
+
+File: {0}</value>
+  </data>
+  <data xml:space="preserve" name="OperationFailed">
+    <value>ACZeroPCremap — operation failed</value>
+  </data>
+  <data xml:space="preserve" name="OpenConfig">
+    <value>Open a control configuration file.</value>
+  </data>
+  <data xml:space="preserve" name="SharedBindings">
+    <value>Warning — shared inputs in this tab (allowed): </value>
+  </data>
+  <data xml:space="preserve" name="NoSimpleBindings">
+    <value>No simple bindings</value>
+  </data>
+  <data xml:space="preserve" name="ReadOnlyPrefix">
+    <value>Read-only · </value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATL">
+    <value>Wingman: disperse</value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATR">
+    <value>Wingman: special weapons</value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATU">
+    <value>Wingman: attack</value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATD">
+    <value>Wingman: cover</value>
+  </data>
+  <data xml:space="preserve" name="Flight.LX-">
+    <value>Roll left</value>
+  </data>
+  <data xml:space="preserve" name="Flight.LX+">
+    <value>Roll right</value>
+  </data>
+  <data xml:space="preserve" name="Flight.LY-">
+    <value>Pitch down</value>
+  </data>
+  <data xml:space="preserve" name="Flight.LY+">
+    <value>Pitch up</value>
+  </data>
+  <data xml:space="preserve" name="Camera.Left">
+    <value>Look left</value>
+  </data>
+  <data xml:space="preserve" name="Camera.Right">
+    <value>Look right</value>
+  </data>
+  <data xml:space="preserve" name="Camera.Up">
+    <value>Look up</value>
+  </data>
+  <data xml:space="preserve" name="Camera.Down">
+    <value>Look down</value>
+  </data>
+  <data xml:space="preserve" name="Flight.LT">
+    <value>Decelerate / airbrake</value>
+  </data>
+  <data xml:space="preserve" name="Flight.RT">
+    <value>Accelerate</value>
+  </data>
+  <data xml:space="preserve" name="Flight.LB">
+    <value>Yaw left</value>
+  </data>
+  <data xml:space="preserve" name="Flight.RB">
+    <value>Yaw right</value>
+  </data>
+  <data xml:space="preserve" name="Flight.A">
+    <value>Fire gun</value>
+  </data>
+  <data xml:space="preserve" name="Flight.B">
+    <value>Fire missile / special weapon</value>
+  </data>
+  <data xml:space="preserve" name="Flight.X">
+    <value>Switch weapon</value>
+  </data>
+  <data xml:space="preserve" name="Flight.Y">
+    <value>Change target</value>
+  </data>
+  <data xml:space="preserve" name="Flight.LSC">
+    <value>Boresight mode</value>
+  </data>
+  <data xml:space="preserve" name="Flight.RSC">
+    <value>Change camera view</value>
+  </data>
+  <data xml:space="preserve" name="Flight.MENU">
+    <value>Pause</value>
+  </data>
+  <data xml:space="preserve" name="Flight.VIEW">
+    <value>Radar / map</value>
+  </data>
+  <data xml:space="preserve" name="UnknownAction">
+    <value>Unknown action ({0})</value>
+  </data>
+  <data xml:space="preserve" name="Menu.Left">
+    <value>Navigate left</value>
+  </data>
+  <data xml:space="preserve" name="Menu.Right">
+    <value>Navigate right</value>
+  </data>
+  <data xml:space="preserve" name="Menu.Up">
+    <value>Navigate up</value>
+  </data>
+  <data xml:space="preserve" name="Menu.Down">
+    <value>Navigate down</value>
+  </data>
+  <data xml:space="preserve" name="Menu.A">
+    <value>Confirm selection</value>
+  </data>
+  <data xml:space="preserve" name="Menu.B">
+    <value>Cancel / back</value>
+  </data>
+  <data xml:space="preserve" name="Menu.MENU">
+    <value>Back / menu</value>
+  </data>
+  <data xml:space="preserve" name="Menu.X">
+    <value>Change display</value>
+  </data>
+  <data xml:space="preserve" name="Menu.Y">
+    <value>Additional replay action</value>
+  </data>
+  <data xml:space="preserve" name="Menu.LB">
+    <value>Additional replay action 1</value>
+  </data>
+  <data xml:space="preserve" name="Menu.RB">
+    <value>Additional replay action 2</value>
+  </data>
+  <data xml:space="preserve" name="Menu.VIEW">
+    <value>Additional replay screen action</value>
+  </data>
+  <data xml:space="preserve" name="Menu.Unused">
+    <value>Unused (INI)</value>
+  </data>
+  <data xml:space="preserve" name="Menu.Note">
+    <value>Navigation and Selection control menus. Camera and Additional actions control post-mission replays. Unused contains entries present in the INI whose purpose is unknown; their bindings are preserved.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.Note">
+    <value>Labels use the ZERO scheme and Normal mode. ACE5 swaps weapon and radar controls. Autopilot: press both yaw directions together.</value>
+  </data>
+  <data xml:space="preserve" name="Menu.UnusedHint">
+    <value>These entries are present in the INI, but their purpose is unknown. Their bindings are preserved.</value>
+  </data>
+  <data xml:space="preserve" name="Menu.ContextHint">
+    <value>Additional post-mission replay control. Follow the replay screen prompts.</value>
+  </data>
+  <data xml:space="preserve" name="Menu.DisplayHint">
+    <value>Change the display during a post-mission replay. Follow the replay screen prompts.</value>
+  </data>
+  <data xml:space="preserve" name="Menu.CameraHint">
+    <value>Move the camera during a post-mission replay. Direction depends on inversion settings.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATLHint">
+    <value>Order your wingman to disperse: focus on air targets, any targets, or ground targets.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATRHint">
+    <value>Allow or prohibit your wingman from using special weapons.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATUHint">
+    <value>Order your wingman to attack an enemy ahead.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.HATDHint">
+    <value>Order your wingman to cover your aircraft.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.RollHint">
+    <value>Roll in Normal mode; turn the aircraft in Novice mode.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.PitchDownHint">
+    <value>Lower the nose. This is the up direction of the original PS2 flight axis.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.PitchUpHint">
+    <value>Raise the nose. This is the down direction of the original PS2 flight axis.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.BrakeHint">
+    <value>Reduce throttle. Hold for maximum deceleration.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.ThrottleHint">
+    <value>Increase throttle. Hold for maximum acceleration.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.YawHint">
+    <value>Yaw using the rudder. Press both yaw directions together to engage autopilot.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.GunHint">
+    <value>Hold to keep firing the gun.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.MissileHint">
+    <value>Fire the selected missile or special weapon. Hold to track the launched missile.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.TargetHint">
+    <value>Select another target. Hold to track the target with the camera.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.WeaponHint">
+    <value>Switch between standard missiles and special weapons in the ZERO scheme.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.RadarHint">
+    <value>Change the radar / map display or scale in the ZERO scheme.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.BoresightHint">
+    <value>Toggle Boresight mode to prioritize a target in the aiming circle ahead of your aircraft.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.ViewHint">
+    <value>Switch between HUD, cockpit and third-person views.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.CameraHint">
+    <value>Look around in flight. Direction depends on camera inversion settings.</value>
+  </data>
+  <data xml:space="preserve" name="Mouse.Left">
+    <value>Left mouse button</value>
+  </data>
+  <data xml:space="preserve" name="Mouse.Right">
+    <value>Right mouse button</value>
+  </data>
+  <data xml:space="preserve" name="Mouse.Middle">
+    <value>Middle mouse button</value>
+  </data>
+  <data xml:space="preserve" name="Error.Utf8Only">
+    <value>Only UTF-8 INI files are supported. The file has not been changed.</value>
+  </data>
+  <data xml:space="preserve" name="Error.BinaryFile">
+    <value>Unsupported encoding or binary file. Expected a UTF-8 INI file.</value>
+  </data>
+  <data xml:space="preserve" name="Error.MissingSection">
+    <value>Section [{0}] is missing. Sections are not created automatically.</value>
+  </data>
+  <data xml:space="preserve" name="Error.RepeatedSection">
+    <value>Section [{0}] is declared more than once. Editing is disabled because the format is ambiguous.</value>
+  </data>
+  <data xml:space="preserve" name="Error.ReadOnlyBinding">
+    <value>Complex or unknown bindings are read-only.</value>
+  </data>
+  <data xml:space="preserve" name="Error.UnknownAction">
+    <value>Unknown action.</value>
+  </data>
+  <data xml:space="preserve" name="Error.DeviceSections">
+    <value>This section cannot be edited with the selected input type.</value>
+  </data>
+  <data xml:space="preserve" name="Error.UnsupportedInput">
+    <value>Unsupported input value.</value>
+  </data>
+  <data xml:space="preserve" name="Error.DuplicateBinding">
+    <value>This binding is already assigned to the selected action.</value>
+  </data>
+  <data xml:space="preserve" name="Error.ExternalChange">
+    <value>The file was changed by another application. Saving was canceled. Reload the file before continuing.</value>
+  </data>
+  <data xml:space="preserve" name="Error.DirtyRestore">
+    <value>Save or discard your unsaved changes first.</value>
+  </data>
+  <data xml:space="preserve" name="Error.SelectBackup">
+    <value>Select a backup rather than the open INI file.</value>
+  </data>
+  <data xml:space="preserve" name="Error.InvalidBackup">
+    <value>The backup contains no keyboard or DirectInput device profiles.</value>
+  </data>
+  <data xml:space="preserve" name="Error.VerifyWrite">
+    <value>The written file could not be verified.</value>
+  </data>
+  <data xml:space="preserve" name="Yes">
+    <value>Yes</value>
+  </data>
+  <data xml:space="preserve" name="No">
+    <value>No</value>
+  </data>
+  <data xml:space="preserve" name="OK">
+    <value>OK</value>
+  </data>
+  <data xml:space="preserve" name="DontSave">
+    <value>Don’t save</value>
+  </data>
+  <data xml:space="preserve" name="Error.FileMissing">
+    <value>The selected file or folder no longer exists. Check its location and try again.</value>
+  </data>
+  <data xml:space="preserve" name="Error.AccessDenied">
+    <value>Access was denied. Check the folder permissions and whether the file is read-only.</value>
+  </data>
+  <data xml:space="preserve" name="Error.FileAccess">
+    <value>The file operation failed. Check that the drive is available, there is enough free space, and no other application is blocking the file.</value>
+  </data>
+  <data xml:space="preserve" name="Error.Unexpected">
+    <value>The operation could not be completed.</value>
+  </data>
+  <data xml:space="preserve" name="Key.01">
+    <value>Escape</value>
+  </data>
+  <data xml:space="preserve" name="Key.02">
+    <value>1</value>
+  </data>
+  <data xml:space="preserve" name="Key.03">
+    <value>2</value>
+  </data>
+  <data xml:space="preserve" name="Key.04">
+    <value>3</value>
+  </data>
+  <data xml:space="preserve" name="Key.05">
+    <value>4</value>
+  </data>
+  <data xml:space="preserve" name="Key.06">
+    <value>5</value>
+  </data>
+  <data xml:space="preserve" name="Key.07">
+    <value>6</value>
+  </data>
+  <data xml:space="preserve" name="Key.08">
+    <value>7</value>
+  </data>
+  <data xml:space="preserve" name="Key.09">
+    <value>8</value>
+  </data>
+  <data xml:space="preserve" name="Key.0A">
+    <value>9</value>
+  </data>
+  <data xml:space="preserve" name="Key.0B">
+    <value>0</value>
+  </data>
+  <data xml:space="preserve" name="Key.10">
+    <value>Q</value>
+  </data>
+  <data xml:space="preserve" name="Key.11">
+    <value>W</value>
+  </data>
+  <data xml:space="preserve" name="Key.12">
+    <value>E</value>
+  </data>
+  <data xml:space="preserve" name="Key.13">
+    <value>R</value>
+  </data>
+  <data xml:space="preserve" name="Key.14">
+    <value>T</value>
+  </data>
+  <data xml:space="preserve" name="Key.15">
+    <value>Y</value>
+  </data>
+  <data xml:space="preserve" name="Key.16">
+    <value>U</value>
+  </data>
+  <data xml:space="preserve" name="Key.17">
+    <value>I</value>
+  </data>
+  <data xml:space="preserve" name="Key.18">
+    <value>O</value>
+  </data>
+  <data xml:space="preserve" name="Key.19">
+    <value>P</value>
+  </data>
+  <data xml:space="preserve" name="Key.1E">
+    <value>A</value>
+  </data>
+  <data xml:space="preserve" name="Key.1F">
+    <value>S</value>
+  </data>
+  <data xml:space="preserve" name="Key.20">
+    <value>D</value>
+  </data>
+  <data xml:space="preserve" name="Key.21">
+    <value>F</value>
+  </data>
+  <data xml:space="preserve" name="Key.22">
+    <value>G</value>
+  </data>
+  <data xml:space="preserve" name="Key.23">
+    <value>H</value>
+  </data>
+  <data xml:space="preserve" name="Key.24">
+    <value>J</value>
+  </data>
+  <data xml:space="preserve" name="Key.25">
+    <value>K</value>
+  </data>
+  <data xml:space="preserve" name="Key.26">
+    <value>L</value>
+  </data>
+  <data xml:space="preserve" name="Key.2C">
+    <value>Z</value>
+  </data>
+  <data xml:space="preserve" name="Key.2D">
+    <value>X</value>
+  </data>
+  <data xml:space="preserve" name="Key.2E">
+    <value>C</value>
+  </data>
+  <data xml:space="preserve" name="Key.2F">
+    <value>V</value>
+  </data>
+  <data xml:space="preserve" name="Key.30">
+    <value>B</value>
+  </data>
+  <data xml:space="preserve" name="Key.31">
+    <value>N</value>
+  </data>
+  <data xml:space="preserve" name="Key.32">
+    <value>M</value>
+  </data>
+  <data xml:space="preserve" name="Key.0C">
+    <value>-</value>
+  </data>
+  <data xml:space="preserve" name="Key.0D">
+    <value>=</value>
+  </data>
+  <data xml:space="preserve" name="Key.0E">
+    <value>Backspace</value>
+  </data>
+  <data xml:space="preserve" name="Key.0F">
+    <value>Tab</value>
+  </data>
+  <data xml:space="preserve" name="Key.1A">
+    <value>[</value>
+  </data>
+  <data xml:space="preserve" name="Key.1B">
+    <value>]</value>
+  </data>
+  <data xml:space="preserve" name="Key.1C">
+    <value>Enter</value>
+  </data>
+  <data xml:space="preserve" name="Key.1D">
+    <value>Left Ctrl</value>
+  </data>
+  <data xml:space="preserve" name="Key.27">
+    <value>;</value>
+  </data>
+  <data xml:space="preserve" name="Key.28">
+    <value>'</value>
+  </data>
+  <data xml:space="preserve" name="Key.29">
+    <value>`</value>
+  </data>
+  <data xml:space="preserve" name="Key.2A">
+    <value>Left Shift</value>
+  </data>
+  <data xml:space="preserve" name="Key.2B">
+    <value>\</value>
+  </data>
+  <data xml:space="preserve" name="Key.33">
+    <value>,</value>
+  </data>
+  <data xml:space="preserve" name="Key.34">
+    <value>.</value>
+  </data>
+  <data xml:space="preserve" name="Key.35">
+    <value>/</value>
+  </data>
+  <data xml:space="preserve" name="Key.36">
+    <value>Right Shift</value>
+  </data>
+  <data xml:space="preserve" name="Key.37">
+    <value>NumPad *</value>
+  </data>
+  <data xml:space="preserve" name="Key.38">
+    <value>Left Alt</value>
+  </data>
+  <data xml:space="preserve" name="Key.39">
+    <value>Space</value>
+  </data>
+  <data xml:space="preserve" name="Key.3A">
+    <value>Caps Lock</value>
+  </data>
+  <data xml:space="preserve" name="Key.45">
+    <value>Num Lock</value>
+  </data>
+  <data xml:space="preserve" name="Key.46">
+    <value>Scroll Lock</value>
+  </data>
+  <data xml:space="preserve" name="Key.47">
+    <value>NumPad 7</value>
+  </data>
+  <data xml:space="preserve" name="Key.48">
+    <value>NumPad 8</value>
+  </data>
+  <data xml:space="preserve" name="Key.49">
+    <value>NumPad 9</value>
+  </data>
+  <data xml:space="preserve" name="Key.4A">
+    <value>NumPad -</value>
+  </data>
+  <data xml:space="preserve" name="Key.4B">
+    <value>NumPad 4</value>
+  </data>
+  <data xml:space="preserve" name="Key.4C">
+    <value>NumPad 5</value>
+  </data>
+  <data xml:space="preserve" name="Key.4D">
+    <value>NumPad 6</value>
+  </data>
+  <data xml:space="preserve" name="Key.4E">
+    <value>NumPad +</value>
+  </data>
+  <data xml:space="preserve" name="Key.4F">
+    <value>NumPad 1</value>
+  </data>
+  <data xml:space="preserve" name="Key.50">
+    <value>NumPad 2</value>
+  </data>
+  <data xml:space="preserve" name="Key.51">
+    <value>NumPad 3</value>
+  </data>
+  <data xml:space="preserve" name="Key.52">
+    <value>NumPad 0</value>
+  </data>
+  <data xml:space="preserve" name="Key.53">
+    <value>NumPad .</value>
+  </data>
+  <data xml:space="preserve" name="Key.56">
+    <value>OEM 102</value>
+  </data>
+  <data xml:space="preserve" name="Key.9C">
+    <value>NumPad Enter</value>
+  </data>
+  <data xml:space="preserve" name="Key.9D">
+    <value>Right Ctrl</value>
+  </data>
+  <data xml:space="preserve" name="Key.B5">
+    <value>NumPad /</value>
+  </data>
+  <data xml:space="preserve" name="Key.B7">
+    <value>Print Screen</value>
+  </data>
+  <data xml:space="preserve" name="Key.B8">
+    <value>Right Alt</value>
+  </data>
+  <data xml:space="preserve" name="Key.C5">
+    <value>Pause</value>
+  </data>
+  <data xml:space="preserve" name="Key.C7">
+    <value>Home</value>
+  </data>
+  <data xml:space="preserve" name="Key.C8">
+    <value>Up</value>
+  </data>
+  <data xml:space="preserve" name="Key.C9">
+    <value>Page Up</value>
+  </data>
+  <data xml:space="preserve" name="Key.CB">
+    <value>Left</value>
+  </data>
+  <data xml:space="preserve" name="Key.CD">
+    <value>Right</value>
+  </data>
+  <data xml:space="preserve" name="Key.CF">
+    <value>End</value>
+  </data>
+  <data xml:space="preserve" name="Key.D0">
+    <value>Down</value>
+  </data>
+  <data xml:space="preserve" name="Key.D1">
+    <value>Page Down</value>
+  </data>
+  <data xml:space="preserve" name="Key.D2">
+    <value>Insert</value>
+  </data>
+  <data xml:space="preserve" name="Key.D3">
+    <value>Delete</value>
+  </data>
+  <data xml:space="preserve" name="Key.DB">
+    <value>Left Win</value>
+  </data>
+  <data xml:space="preserve" name="Key.DC">
+    <value>Right Win</value>
+  </data>
+  <data xml:space="preserve" name="Key.DD">
+    <value>Apps</value>
+  </data>
+  <data xml:space="preserve" name="Key.3B">
+    <value>F1</value>
+  </data>
+  <data xml:space="preserve" name="Key.3C">
+    <value>F2</value>
+  </data>
+  <data xml:space="preserve" name="Key.3D">
+    <value>F3</value>
+  </data>
+  <data xml:space="preserve" name="Key.3E">
+    <value>F4</value>
+  </data>
+  <data xml:space="preserve" name="Key.3F">
+    <value>F5</value>
+  </data>
+  <data xml:space="preserve" name="Key.40">
+    <value>F6</value>
+  </data>
+  <data xml:space="preserve" name="Key.41">
+    <value>F7</value>
+  </data>
+  <data xml:space="preserve" name="Key.42">
+    <value>F8</value>
+  </data>
+  <data xml:space="preserve" name="Key.43">
+    <value>F9</value>
+  </data>
+  <data xml:space="preserve" name="Key.44">
+    <value>F10</value>
+  </data>
+  <data xml:space="preserve" name="Key.57">
+    <value>F11</value>
+  </data>
+  <data xml:space="preserve" name="Key.58">
+    <value>F12</value>
+  </data>
+  <data xml:space="preserve" name="Group.All">
+    <value>All groups</value>
+  </data>
+  <data xml:space="preserve" name="Group.Flight">
+    <value>Flight</value>
+  </data>
+  <data xml:space="preserve" name="Group.Weapons">
+    <value>Weapons</value>
+  </data>
+  <data xml:space="preserve" name="Group.Camera">
+    <value>Camera</value>
+  </data>
+  <data xml:space="preserve" name="Group.Wingman">
+    <value>Wingman</value>
+  </data>
+  <data xml:space="preserve" name="Group.Navigation">
+    <value>Navigation</value>
+  </data>
+  <data xml:space="preserve" name="Group.Selection">
+    <value>Selection</value>
+  </data>
+  <data xml:space="preserve" name="Group.Additional">
+    <value>Additional actions</value>
+  </data>
+  <data xml:space="preserve" name="Group.Unused">
+    <value>Unused</value>
+  </data>
+  <data xml:space="preserve" name="Group.Other">
+    <value>Other</value>
+  </data>
+  <data xml:space="preserve" name="Group.Count">
+    <value>{0} actions</value>
+  </data>
+  <data xml:space="preserve" name="Group.Label">
+    <value>Filter by group</value>
+  </data>
+  <data xml:space="preserve" name="Search.Label">
+    <value>Search bindings</value>
+  </data>
+  <data xml:space="preserve" name="Search.Placeholder">
+    <value>Search actions, keys or codes…  Ctrl+F</value>
+  </data>
+  <data xml:space="preserve" name="Search.Hint">
+    <value>Search action names, groups, key names, INI identifiers or binding expressions. All words must match.</value>
+  </data>
+  <data xml:space="preserve" name="Search.Clear">
+    <value>Clear</value>
+  </data>
+  <data xml:space="preserve" name="Search.Results">
+    <value>{0} of {1} actions</value>
+  </data>
+  <data xml:space="preserve" name="Search.NoResults">
+    <value>No matching actions</value>
+  </data>
+  <data xml:space="preserve" name="Search.TryAgain">
+    <value>Try another search or choose a different group.</value>
+  </data>
+  <data xml:space="preserve" name="Search.Reset">
+    <value>Clear filters</value>
+  </data>
+  <data xml:space="preserve" name="Binding.EditHint">
+    <value>Click a binding to edit it.</value>
+  </data>
+  <data xml:space="preserve" name="Flight.ShortNote">
+    <value>ZERO scheme · Normal mode. Hover for scheme differences and autopilot controls.</value>
+  </data>
+  <data xml:space="preserve" name="Menu.ShortNote">
+    <value>Navigation / Selection: menus. Camera / Additional actions: post-mission replays. Unused: INI entries with an unknown purpose.</value>
+  </data>
+  <data xml:space="preserve" name="Group.CountOne">
+    <value>1 action</value>
+  </data>
+  <data name="UI.MenuPath" xml:space="preserve">
+    <value>MAIN MENU  ›  OPTIONS</value>
+  </data>
+  <data name="UI.ControlTitle" xml:space="preserve">
+    <value>CONTROL CONFIGURATION</value>
+  </data>
+  <data name="UI.BindingPath" xml:space="preserve">
+    <value>CONTROL CONFIGURATION  ›  ASSIGN INPUT</value>
+  </data>
+  <data name="UI.MessagePath" xml:space="preserve">
+    <value>ACZeroPCremap  ›  CONFIRMATION</value>
+  </data>
+  <data name="UI.Minimize" xml:space="preserve">
+    <value>Minimize window</value>
+  </data>
+  <data name="UI.Maximize" xml:space="preserve">
+    <value>Maximize / restore window</value>
+  </data>
+  <data name="UI.Close" xml:space="preserve">
+    <value>Close window</value>
+  </data>
+  <data name="Language.Label" xml:space="preserve">
+    <value>LANGUAGE</value>
+  </data>
+  <data name="Language.Hint" xml:space="preserve">
+    <value>Change the interface language. Your choice is saved separately from the game configuration.</value>
+  </data>
+  <data name="Language.Changed" xml:space="preserve">
+    <value>Interface language changed. Your bindings and unsaved changes are preserved.</value>
+  </data>
+  <data name="Language.SaveFailed" xml:space="preserve">
+    <value>The language changed for this session, but the preference could not be saved. Check access to the application settings folder.</value>
+  </data>
+  <data name="Binding.SharedWarning" xml:space="preserve">
+    <value>Warning: {0} is already used by other actions in this tab: {1}.</value>
+  </data>
+  <data name="Binding.SharedConfirm" xml:space="preserve">
+    <value>Keep this input assigned to multiple actions?</value>
+  </data>
+  <data name="Binding.SharedTitle" xml:space="preserve">
+    <value>Shared input warning</value>
+  </data>
+  <data name="MouseFlight.Use" xml:space="preserve">
+    <value>Use mouse in flight</value>
+  </data>
+  <data name="MouseFlight.Help" xml:space="preserve">
+    <value>Uncheck to disable all flight mouse bindings: buttons, wheel, movement and camera controls. Recheck to restore the disabled lines. Changes stay in memory until Save; menu bindings are unaffected.</value>
+  </data>
+  <data name="MouseFlight.Unavailable" xml:space="preserve">
+    <value>Open a flight configuration with mouse bindings to use this switch. If none are available, add a mouse button with + Binding first.</value>
+  </data>
+  <data name="MouseFlight.Enabled" xml:space="preserve">
+    <value>Flight mouse bindings restored. Save to apply the change.</value>
+  </data>
+  <data name="MouseFlight.Disabled" xml:space="preserve">
+    <value>All flight mouse bindings disabled. Save to apply; recheck the box to restore them.</value>
+  </data>
+  <data name="Menu.ReplayGroupNote" xml:space="preserve">
+    <value>Post-mission replay controls.</value>
+  </data>
+  <data name="UI.PixyQuote" xml:space="preserve">
+    <value>Can you see any borders from here?
+What have the PC port’s limitations given us?</value>
+  </data>
+  <data name="MouseAxis.Left" xml:space="preserve"><value>Mouse left</value></data>
+  <data name="MouseAxis.Right" xml:space="preserve"><value>Mouse right</value></data>
+  <data name="MouseAxis.Up" xml:space="preserve"><value>Mouse up</value></data>
+  <data name="MouseAxis.Down" xml:space="preserve"><value>Mouse down</value></data>
+  <data name="MouseAxis.AbsoluteLeft" xml:space="preserve"><value>Mouse position left</value></data>
+  <data name="MouseAxis.AbsoluteRight" xml:space="preserve"><value>Mouse position right</value></data>
+  <data name="MouseAxis.AbsoluteUp" xml:space="preserve"><value>Mouse position up</value></data>
+  <data name="MouseAxis.AbsoluteDown" xml:space="preserve"><value>Mouse position down</value></data>
+  <data name="MouseAxis.WheelUp" xml:space="preserve"><value>Mouse wheel up</value></data>
+  <data name="MouseAxis.WheelDown" xml:space="preserve"><value>Mouse wheel down</value></data>
+  <data name="MouseAxis.Capture" xml:space="preserve"><value>Capture mouse movement…</value></data>
+  <data name="MouseAxis.Waiting" xml:space="preserve"><value>Move into the box, pause briefly, then move in one direction.</value></data>
+  <data name="MouseAxis.Guide" xml:space="preserve"><value>Move clearly left, right, up or down inside this box.</value></data>
+  <data name="MouseAxis.NewNote" xml:space="preserve"><value>New movement bindings use relative motion. Review the result before Apply.</value></data>
+  <data name="MouseAxis.RetainNote" xml:space="preserve"><value>Existing axis mode, sensitivity and key condition are kept for the matching input type.</value></data>
+  <data name="MouseAxis.Stop" xml:space="preserve"><value>Stop</value></data>
+  <data name="CaptureStopped" xml:space="preserve"><value>Capture stopped.</value></data>
+  <data name="UI.MoreActions" xml:space="preserve"><value>More actions</value></data>
+</root>

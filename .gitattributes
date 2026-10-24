@@ -1,0 +1,7 @@
+* text=auto
+
+# Game INI fixtures must retain their original bytes and line endings.
+*.ini -text
+*.png binary
+*.jpg binary
+*.zip binary
